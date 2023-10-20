@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>пенсил сергеевичь</title>
+    </head>
+    <body>
+<input type="button" value="кнопка бля блек пенсила" onclick="hello();">
+<p id="sherek">0</p>
+
+<script>
+    var p = document.getElementById("sherek");
+    var count = 0;
+    function hello() {
+        count++;
+        p.innerHTML=count;
+    }
+    function pencil() {
+        count--;
+    }
+</script>
+
+    </body>
+</html>
